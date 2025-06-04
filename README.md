@@ -44,7 +44,7 @@ Optimized workload distribution and parallelism to improve delivery speed and re
 
 ---
 
-## 5. 🧪 Python Multi-Version Testing with GitHub Actions  
+## 5.  Python Multi-Version Testing with GitHub Actions  
 Automated testing workflow using GitHub Actions to run Python unit tests across multiple Python versions (3.8 and 3.9).  
 Workflow includes code checkout, environment setup, dependency installation, and test execution using pytest to ensure compatibility and reliability.  
 🔗 [GitHub Repo](https://github.com/Savithri0608/Python-GitHubActions)
