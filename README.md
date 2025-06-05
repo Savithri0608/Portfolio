@@ -72,3 +72,15 @@ Enabled smooth local development and consistent production builds with environme
 🔗 [GitHub Repo](https://github.com/Savithri0608/Mern-Dockercompose)
 
 ---
+
+## 9.  Best-Commerce Helm Project  
+A modular Helm-based Kubernetes deployment for an e-commerce application, structured using microservices architecture.  
+Implemented Helm charts for `payments` and `shipping` services, with reusable templates and environment-specific configurations using `values.yaml`.
+
+- ✅ Kubernetes manifests templated with Helm
+- ✅ Services and deployments defined for both `payments` and `shipping`
+- ✅ Designed for scalable cloud-native deployments
+- ✅ Supports umbrella or independent chart installation  
+🔗 [GitHub Repo](https://github.com/Savithri0608/helm/tree/main/best-commerce)
+
+---
