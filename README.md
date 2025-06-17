@@ -1,86 +1,86 @@
-#  DevOps & Cloud Projects Portfolio
+# 🚀 DevOps & Cloud Projects Portfolio
 
-A curated collection of projects showcasing my hands-on experience in DevOps, Cloud Computing, CI/CD, Automation, and Containerization.
-
----
-
-## 1.  Deploy First App to AWS  
-Deployed a basic Node.js application to an AWS EC2 instance, demonstrating complete end-to-end cloud deployment.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/Deploy-first-app-to-AWS)
+A curated collection of projects showcasing hands-on experience in **DevOps**, **Cloud Computing**, **CI/CD**, **Automation**, **Containerization**, and **Infrastructure as Code (IaC)**. These projects reflect practical implementations using modern tools and services across the DevOps lifecycle.
 
 ---
 
-## 2.  Terraform Projects  
-
-### 📌 EC2 Instance Creation  
-Provisioned an EC2 instance on AWS using Terraform with reusable and modular infrastructure code.
-
-### 📌 EC2 Creation with Variables  
-Launched an EC2 instance using parameterized Terraform configurations for flexible and scalable environment setups.
-
-### 📌 Terraform Modules  
-Implemented Terraform modules to organize and reuse infrastructure code across different environments efficiently.
-
-### 📌 Terraform Vault Integration  
-Integrated HashiCorp Vault with Terraform to securely manage and inject sensitive credentials during EC2 provisioning.
-
-### 📌 Terraform Workspaces  
-Utilized Terraform workspaces to manage multiple environments (dev, staging, production) within a single codebase.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/Terraform-projects)
+## 1. Deploy First App to AWS  
+📌 **Tech Stack:** Node.js, AWS EC2  
+Deployed a basic Node.js application to an AWS EC2 instance, demonstrating a complete end-to-end cloud deployment process.  
+🔗 [GitHub Repo](#)
 
 ---
 
-## 3.  Ansible Nginx Setup  
-Automated the installation and startup of the Nginx web server on multiple Linux hosts using Ansible.  
-The playbook installs Nginx, ensures the service is enabled and running, simplifying web server deployment and management.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/Ansible-Nginx-Setup)
+## 2. Terraform Projects  
+📌 **Tech Stack:** Terraform, AWS  
+
+- **EC2 Instance Creation:** Provisioned EC2 using reusable and modular infrastructure-as-code templates.  
+- **EC2 with Variables:** Used parameterized configurations for scalable environment deployment.  
+- **Terraform Modules:** Modularized infrastructure code for efficient reuse across dev/staging/prod environments.  
+- **Vault Integration:** Injected secrets securely into infrastructure using HashiCorp Vault.  
+- **Terraform Workspaces:** Managed multiple environments within a unified codebase using workspaces.  
+🔗 [GitHub Repo](#)
 
 ---
 
-## 4.  Jenkins Multi-Stage Pipeline with Multi-Agent Execution  
-Designed and implemented a Jenkins CI/CD pipeline with multiple stages including build, test, and deploy, executed across dedicated Jenkins agents.  
-Optimized workload distribution and parallelism to improve delivery speed and reliability in a scalable and modular workflow.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/Jenkins-multistage-pipeline)
+## 3. Ansible Nginx Setup  
+📌 **Tech Stack:** Ansible, Nginx, Linux  
+Automated installation and configuration of Nginx across multiple Linux hosts. Ensured the service is enabled and running to simplify web server deployment.  
+🔗 [GitHub Repo](#)
 
 ---
 
-## 5.  Python Multi-Version Testing with GitHub Actions  
-Automated testing workflow using GitHub Actions to run Python unit tests across multiple Python versions (3.8 and 3.9).  
-Workflow includes code checkout, environment setup, dependency installation, and test execution using pytest to ensure compatibility and reliability.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/Python-GitHubActions)
+## 4. Jenkins Multi-Stage Pipeline with Multi-Agent Execution  
+📌 **Tech Stack:** Jenkins, Shell, Git  
+Designed a CI/CD pipeline with multiple stages (build, test, deploy), executed across dedicated Jenkins agents. Optimized delivery speed and improved reliability through parallelism.  
+🔗 [GitHub Repo](#)
 
 ---
 
-## 6.  Django Web Application Containerized with Docker  
-Developed a Python web application using Django and containerized it with Docker for consistent deployment across environments.  
-Includes Dockerfile and Docker Compose configurations to streamline setup, enhance scalability, and isolate environments.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/Django-Docker)
+## 5. Python Multi-Version Testing with GitHub Actions  
+📌 **Tech Stack:** GitHub Actions, Python, pytest  
+Automated Python unit testing for multiple versions (3.8 and 3.9) using GitHub Actions. Ensured compatibility and streamlined testing through a declarative workflow.  
+🔗 [GitHub Repo](#)
 
 ---
 
-## 7.  Multi-Stage Docker Build for GoLang Application  
-Implemented a multi-stage Docker build for a GoLang application, efficiently compiling and packaging the app to minimize image size.  
-Separated build and runtime environments to optimize container performance and security, facilitating faster and lighter deployments.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/Golang-Multistage)
+## 6. Django Web Application Containerized with Docker  
+📌 **Tech Stack:** Django, Docker, Docker Compose  
+Built and containerized a Django-based web app. Used Docker Compose to orchestrate containers, improve environment consistency, and simplify deployment.  
+🔗 [GitHub Repo](#)
 
 ---
 
-## 8.  Containerizing a MERN Stack Application with Docker Compose  
-Containerized a full-stack MERN (MongoDB, Express.js, React, Node.js) application using Docker and deployed it using Docker Compose.  
-Created isolated services for frontend, backend, and database layers, configured inter-container networking, and used Docker volumes for MongoDB persistence.  
-Enabled smooth local development and consistent production builds with environment variables and simplified orchestration using a single `docker-compose.yml`.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/Mern-Dockercompose)
+## 7. Multi-Stage Docker Build for GoLang Application  
+📌 **Tech Stack:** Go, Docker  
+Created a lightweight production-ready Docker image for a GoLang app using multi-stage builds. Improved performance and reduced final image size by separating build and runtime stages.  
+🔗 [GitHub Repo](#)
 
 ---
 
-## 9.  Best-Commerce Helm Project  
-A modular Helm-based Kubernetes deployment for an e-commerce application, structured using microservices architecture.  
-Implemented Helm charts for `payments` and `shipping` services, with reusable templates and environment-specific configurations using `values.yaml`.
+## 8. Containerizing a MERN Stack Application with Docker Compose  
+📌 **Tech Stack:** MongoDB, Express.js, React, Node.js, Docker Compose  
+Containerized a full MERN stack app. Used isolated services and persistent volumes, set up inter-container networking, and enabled local/production parity via Docker Compose.  
+🔗 [GitHub Repo](#)
 
-- ✅ Kubernetes manifests templated with Helm
-- ✅ Services and deployments defined for both `payments` and `shipping`
-- ✅ Designed for scalable cloud-native deployments
-- ✅ Supports umbrella or independent chart installation  
-🔗 [GitHub Repo](https://github.com/Savithri0608/helm/tree/main/best-commerce)
+---
+
+## 9. Best-Commerce Helm Project  
+📌 **Tech Stack:** Kubernetes, Helm, Microservices  
+Helm-based Kubernetes deployment for an e-commerce app structured into microservices (payments and shipping).  
+
+✅ Templated manifests with Helm  
+✅ Environment-specific configurations via `values.yaml`  
+✅ Supports umbrella chart or service-level install  
+✅ Designed for cloud-native scalability  
+
+🔗 [GitHub Repo](#)
+
+---
+
+## 10. CI/CD Pipeline for Flask Application Using GitHub and AWS DevOps Services  
+📌 **Tech Stack:** GitHub, AWS CodePipeline, CodeBuild, CodeDeploy, EC2, S3, Flask  
+Built a full CI/CD pipeline for Flask using AWS native DevOps tools. Automated build/test via CodeBuild, stored artifacts in S3, and deployed to EC2 using CodeDeploy with `appspec.yml` lifecycle hooks.  
+🔗 [GitHub Repo](https://github.com/Savithri0608/CI-CD)
 
 ---
