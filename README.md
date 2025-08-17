@@ -40,7 +40,7 @@ Designed a CI/CD pipeline with multiple stages (build, test, deploy), executed a
 ## 5. Python Multi-Version Testing with GitHub Actions  
 📌 **Tech Stack:** GitHub Actions, Python, pytest  
 Automated Python unit testing for multiple versions (3.8 and 3.9) using GitHub Actions. Ensured compatibility and streamlined testing through a declarative workflow.  
-🔗 [[GitHub Repo](#](https://github.com/Savithri0608/GitHub-Actions))
+🔗 [[GitHub Repo](#)](https://github.com/Savithri0608/GitHub-Actions)
 
 ---
 
@@ -74,13 +74,13 @@ Helm-based Kubernetes deployment for an e-commerce app structured into microserv
 ✅ Supports umbrella chart or service-level install  
 ✅ Designed for cloud-native scalability  
 
-🔗[ [GitHub Repo](#)](https://github.com/Savithri0608/helm)
+🔗 [GitHub Repo](#)(https://github.com/Savithri0608/helm)
 
 ---
 
 ## 10. CI/CD Pipeline for Flask Application Using GitHub and AWS DevOps Services  
 📌 **Tech Stack:** GitHub, AWS CodePipeline, CodeBuild, CodeDeploy, EC2, S3, Flask  
 Built a full CI/CD pipeline for Flask using AWS native DevOps tools. Automated build/test via CodeBuild, stored artifacts in S3, and deployed to EC2 using CodeDeploy with `appspec.yml` lifecycle hooks.  
-🔗 [GitHub Repo](https://github.com/Savithri0608/CI-CD)
+🔗 [GitHub Repo](#)(https://github.com/Savithri0608/CI-CD)
 
 ---
