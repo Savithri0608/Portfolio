@@ -26,7 +26,7 @@ Deployed a basic Node.js application to an AWS EC2 instance, demonstrating a com
 ## 3. Ansible Nginx Setup  
 📌 **Tech Stack:** Ansible, Nginx, Linux  
 Automated installation and configuration of Nginx across multiple Linux hosts. Ensured the service is enabled and running to simplify web server deployment.  
-🔗 [[GitHub Repo](#](https://github.com/Savithri0608/Ansible))
+🔗 [[GitHub Repo](#)](https://github.com/Savithri0608/Ansible))
 
 ---
 
